@@ -1,25 +1,3 @@
-/*#################################################################################
-
-Program Name    : MPU6050 Hello World 
-Author          : Crispin Mukalay
-Date Modified   : 17/10/2018
-Compiler        : ARMmbed
-Tested On       : NUCLEO-F446RE
-
-Description     : Demonstrates the use of the MPU6050 gryroscope/accelerometer/temperature
-                  sensor to read gyroscope 3-axis angular velocities(°/s) and accelerometer
-                  3-axis accelerations (°).
-                  
-Requirements    : * NUCLEO-F446RE Board
-                  * MPU6050 Module
-              
-Circuit         : * The MPU6050 module is connected as follows:
-                    VCC                      -   3.3V
-                    GND                      -   GND
-                    SCL                      -   PB10 (I2C2_SCL pin)
-                    SDA                      -   PB3 (I2C2_SDA pin)
-
-####################################################################################*/
 
 #include "mbed.h"
 #include "MPU6050.h"
